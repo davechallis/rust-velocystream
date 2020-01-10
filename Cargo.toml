@@ -1,0 +1,15 @@
+[package]
+name = "velocystream"
+version = "0.1.0"
+authors = ["Dave Challis <dave@suicas.net>"]
+description = "Utilities and data structures for handling ArangoDB's VelocyStream protocol."
+repository = "https://github.com/davechallis/rust-velocystream"
+license = "Apache-2.0"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+velocypack = "0.1"
+serde = { version = "1.0" }
+byteorder = "1.3"
+erased-serde = "0.3"
